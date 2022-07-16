@@ -94,7 +94,7 @@ const Posts = () => {
                     <div>{sliderValue}L</div>
                 </div>
                 <input className={styles.slider_container} type="range" min="1" max="10" step=".5" onChange={(e) => { handleSlider(e.target.value) }} />
-
+                    <button className={styles.posts_button}>Apply</button>
             </div>
 
             <div className={styles.posts_middle_container}>
